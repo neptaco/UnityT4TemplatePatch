@@ -18,7 +18,7 @@ Using T4 Template by Unity generated csproj.
 
 ## Patching to Csproj
 
-Search for files with extension `.tt` and generate an ItemGroup tag.
+Automatically search for files with extension `.tt` and generate an ItemGroup tag.
 
 Generated from `Assets/Scripts/Scripts/StringUtils.Generated.tt` as follows
 
