@@ -1,0 +1,26 @@
+<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Linq" #>
+using System;
+using System.Text;
+
+public class StringUtils 
+{
+<#
+    for (int i = 1; i <= 8; i++) {
+        var range = Enumerable.Range(1, i).ToArray();
+        var argTypes = string.Join(", ", range.Select(v => $"T{v}"));
+        var args = string.Join(", ", range.Select(v => $"T{v} v{v}"));
+        var appends = string.Join(".", range.Select(v => $"Append(v{v})"));
+#>
+    public static string Concat<<#= argTypes #>>(<#= args #>)
+    {
+        var sb = new StringBuilder();
+        sb.<#= appends #>;
+        return sb.ToString();
+    }
+
+<# } #>    
+}
