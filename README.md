@@ -1,6 +1,6 @@
 # Unity T4 Template Patch
 
-[![openupm](https://img.shields.io/npm/v/com.com.xtaltools.unity-t4-patch?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.xtaltools.unity-t4-patch/)
+[![openupm](https://img.shields.io/npm/v/com.xtaltools.unity-t4-patch?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.xtaltools.unity-t4-patch/)
 
 Using T4 Template by Unity generated csproj.
 
