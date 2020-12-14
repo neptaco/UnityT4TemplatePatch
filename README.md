@@ -11,7 +11,7 @@ Using T4 Template by Unity generated csproj.
 ```manifest.json
 {
     "dependencies": {
-        "com.xtaltools.unity-t4-patch": "https://github.com/neptaco/UnityT4TemplatePatch.git?path=Packages/T4TemplatePatch"
+        "com.xtaltools.unity-t4-patch": "https://github.com/neptaco/UnityT4TemplatePatch.git?path=Packages/UnityT4TemplatePatch"
     }
 }
 ```
